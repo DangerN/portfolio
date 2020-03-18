@@ -38,7 +38,6 @@ To minimize the use of media queries, I specified the grid values for sm (releva
 		<img class="card-img" src="Images/placeimg_200_150_tech (2).jpg" alt="Stock Word Guess">
 		<div class="card-footer bg-info pb-2">RPG Game</div>
 	</div>
-``` 
 
 ## Author Links
 [LinkedIn](https://www.linkedin.com/in/ana-medrano-fernandez/)
