@@ -14,20 +14,28 @@
 </head>
 
 <body>
-    <!-- Jumbotron and nav bar content -->
+    <!-- Primary grid that holds header text and nav bar content -->
+
+    <!-- Container is set to fluid allows us the header to span the entire width of the viewport  -->
     <div class="container-fluid border-bottom">
+
         <div class="row">
-            <div class="col-sm bg-info text-white">
-                    <h1 class="display-w d-flex justify-content-center">Ana Medrano</h1>
+            <!-- At the smallest size this first box should not exist -->
+            <div class="col-sm-0 col-md-1 bg-white">
+
             </div>
 
-            <div class="col-sm">
-    
+            <!-- At the largest sizes, the name header should take about a third of the space but at the smallest sizes it should take up a full roll of header -->
+            <div class="col-sm-12 col-md-2 bg-info text-white ">
+                <h3 class="display-h justify-content-center py-2 d-flex flex-nowrap"
+                    style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Ana Medrano</h3>
             </div>
-            <div class="col-sm align-middle">
-                <ul class="nav justify-content-center text-secondary">
+
+            <div class="col-sm-12 col-md-9 bg-white d-flex align-items-center justify-content-end">
+                <!--  justify-content-right align-middle text-secondary -->
+                <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link active border-right text-secondary " href="index.html">About</a>
+                        <a class="nav-link active border-right text-secondary" href="index.html">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link border-right text-secondary" href="portfolio.html">Portfolio</a>
@@ -40,10 +48,21 @@
         </div>
     </div>
 
+    <nav class="navbar fixed-bottom navbar-light bg-dark border-top border-info">
+        <a class="navbar-brand text-white text-center">copyright</a>
+    </nav>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
