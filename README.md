@@ -12,7 +12,7 @@ In the future, this would be a great place to add content that has been built. C
 
 
 ## Site Picture
-![Site](#)
+![Site](Images/portfolio.png)
 
 ## Technologies Used
 - HTML - used to create elements
@@ -28,13 +28,13 @@ In the future, this would be a great place to add content that has been built. C
 To minimize the use of media queries, I specified the grid values for sm (relevant to 640) and md (relevant to 768 and 980). So in the case of screen size of 768 and above, I wanted the images to take about half of the space available whereas at the smallest size, I wanted them to take most of the space. 
 
 ```Code snippet
-	<div class="card text-white col-md-6 col-sm-12 float-left">
+	<div class="card text-white col-md-6 col-sm-12 float-left border-0 py-3">
 		<img class="card-img" src="Images/placeimg_200_150_tech (1).jpg" alt="Stock Word Guess">
 		<div class="card-footer bg-info pb-2">Word Guess</div>
 	</div>
 
 ```
-	<div class="card text-white col-md-6 col-sm-12 float-right">
+	<div class="card text-white col-md-6 col-sm-12 float-right border-0 py-3">
 		<img class="card-img" src="Images/placeimg_200_150_tech (2).jpg" alt="Stock Word Guess">
 		<div class="card-footer bg-info pb-2">RPG Game</div>
 	</div>
